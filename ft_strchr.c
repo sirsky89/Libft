@@ -20,7 +20,7 @@ char *ft_strchr(const char *s, int c)
 int main()
 {
   char str[] = "Hello, World!";
-  char searchChar = 'o';
+  char searchChar = 'H';
 
   char *result = ft_strchr(str, searchChar);
 
